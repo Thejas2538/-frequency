@@ -1,0 +1,241 @@
+body {
+    background-color: #0f172a;
+}
+
+.nav-link {                                    /* special tag used for the main title of the entire page */
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    color: #f8fafc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease; 
+}
+
+.nav-link:hover {                              /* hover to see a link to homepage, color changes */
+    color: #94a3b8;
+}
+
+a {                                            /* rest of the navigation links have the same css and hence are clubbed together */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color:#cbd5e1;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #94a3b8;
+}
+
+a:active {
+    color: #f8fafc;
+}
+
+
+.color-bar {                                   /* a class used for spacing using div tag, purely cosmetic purposes */
+  width: 100%;
+  height: 10px;
+  background-color: #0f172a;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color:#cbd5e1;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wee {                                          /* a class used for spacing using div tag, purely cosmetic purposes */
+    height: 300px;
+}
+
+.wee2 {                                         /* a class used for spacing using div tag, purely cosmetic purposes */
+    height: 200px;
+}
+
+.wee3 {                                         /* a class used for spacing using div tag, purely cosmetic purposes */
+    height: 30px;
+}
+
+.track {                                        /* widely used class paired with p tag to specify uniform text across the website */
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color:#cbd5e1;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.track2 {                                       /* used once in home page to size and margin the paragraph text correctly */
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color:#cbd5e1;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.img {                                          /* establishing flexbox in order to get side by side text */
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+img {                                           /* size of image and margining */
+    width: 350px;
+    margin-left: 70px;
+}
+
+/*music page*/
+
+.links {                                        /* to center links in music page */
+    text-align: center;
+}
+
+.yt:hover {                                     /* to get red color on hover on youtube in music page "our top picks" */
+    color: #ff617b;
+}
+
+.spot:hover {                                   /* to get green color on hover on spotify in music page "our top picks" */
+    color: #00aba6;
+}
+
+.artist img {                                   /* used to size image in artists and music page */
+    width: 250px;
+    float: left;
+}
+
+h3 {                                            /* used to size/style titles in artists and music page */
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color:#cbd5e1;
+    text-decoration: none;
+    text-align: left;
+    padding: 0px 70px;
+}
+
+.artist-text {                                  /* used to size/style paragraphs in artists and music page */
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color:#cbd5e1;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.artist {
+    display: flex;
+}
+
+.album {                                        /* hover to change color on album titles */
+    transition: color 0.3s ease;
+}
+
+.album:hover {
+    color: #00aba6;
+}
+
+/*genres page*/
+
+.container {                                    /* css for grid layout in genre page */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #0f172a;
+  padding: 20px;
+
+}
+
+.container div {
+  background-color: #0f172a;
+  border: 1px #0f172a;
+  padding: 10px;
+  font-size: 26px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #f8fafc;
+  transition: background-color 0.5s ease;
+}
+
+.container div:hover {                          /* to darken grid when hovering on a genre in genre page */
+    color: #0b1222;
+    background-color: #0b1222;
+}
+
+
+
+ /* CONTACT PAGE  */
+
+.contact-container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.contact-box {
+    width: 300px;
+    padding: 25px;
+    background-color:#0f172a;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.contact-box h2 {
+    text-align: center;
+    
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+
+.contact-box p {
+    text-align: center;
+   
+    font-size: 17px;
+    margin: 8px;
+}
+
+
+/* HOVER EFFECT */
+
+.contact-box:hover {
+    transform: translateY(-8px);
+
+}
+
+
+/* FORMS */
+
+forms {
+       font-family: Arial, sans-serif;
+
+    color: #f8fafc;
+
+    text-align: center;
+
+    font-size: 100px;
+
+    margin-top: 40px;
+
+    margin-bottom: 25px;
+
+}
+
+
+label{
+       font-size: 40px;
+}
+
+.tall {
+       
+       height: 30px;   
+}
